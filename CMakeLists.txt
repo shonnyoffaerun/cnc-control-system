@@ -16,6 +16,7 @@ add_executable(
 )
 
 target_link_libraries(cnc-control-system PRIVATE
+    Qt6::Gui
     Qt6::Core
     Qt6::SerialPort
     Qt6::Widgets
