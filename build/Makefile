@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dmitrykravchenko/projects/cpp/cnc-control-system
+CMAKE_SOURCE_DIR = /home/dmitry/projects/cpp/cnc-control-system
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dmitrykravchenko/projects/cpp/cnc-control-system/build
+CMAKE_BINARY_DIR = /home/dmitry/projects/cpp/cnc-control-system/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmitrykravchenko/projects/cpp/cnc-control-system/build/CMakeFiles /home/dmitrykravchenko/projects/cpp/cnc-control-system/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmitry/projects/cpp/cnc-control-system/build/CMakeFiles /home/dmitry/projects/cpp/cnc-control-system/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmitrykravchenko/projects/cpp/cnc-control-system/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmitry/projects/cpp/cnc-control-system/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -179,6 +179,54 @@ cnc-control-system_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc-control-system.dir/build.make CMakeFiles/cnc-control-system.dir/cnc-control-system_autogen/mocs_compilation.cpp.s
 .PHONY : cnc-control-system_autogen/mocs_compilation.cpp.s
 
+src/common/protocol.o: src/common/protocol.cpp.o
+.PHONY : src/common/protocol.o
+
+# target to build an object file
+src/common/protocol.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc-control-system.dir/build.make CMakeFiles/cnc-control-system.dir/src/common/protocol.cpp.o
+.PHONY : src/common/protocol.cpp.o
+
+src/common/protocol.i: src/common/protocol.cpp.i
+.PHONY : src/common/protocol.i
+
+# target to preprocess a source file
+src/common/protocol.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc-control-system.dir/build.make CMakeFiles/cnc-control-system.dir/src/common/protocol.cpp.i
+.PHONY : src/common/protocol.cpp.i
+
+src/common/protocol.s: src/common/protocol.cpp.s
+.PHONY : src/common/protocol.s
+
+# target to generate assembly for a file
+src/common/protocol.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc-control-system.dir/build.make CMakeFiles/cnc-control-system.dir/src/common/protocol.cpp.s
+.PHONY : src/common/protocol.cpp.s
+
+src/host/cad_parser.o: src/host/cad_parser.cpp.o
+.PHONY : src/host/cad_parser.o
+
+# target to build an object file
+src/host/cad_parser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc-control-system.dir/build.make CMakeFiles/cnc-control-system.dir/src/host/cad_parser.cpp.o
+.PHONY : src/host/cad_parser.cpp.o
+
+src/host/cad_parser.i: src/host/cad_parser.cpp.i
+.PHONY : src/host/cad_parser.i
+
+# target to preprocess a source file
+src/host/cad_parser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc-control-system.dir/build.make CMakeFiles/cnc-control-system.dir/src/host/cad_parser.cpp.i
+.PHONY : src/host/cad_parser.cpp.i
+
+src/host/cad_parser.s: src/host/cad_parser.cpp.s
+.PHONY : src/host/cad_parser.s
+
+# target to generate assembly for a file
+src/host/cad_parser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc-control-system.dir/build.make CMakeFiles/cnc-control-system.dir/src/host/cad_parser.cpp.s
+.PHONY : src/host/cad_parser.cpp.s
+
 src/host/main.o: src/host/main.cpp.o
 .PHONY : src/host/main.o
 
@@ -203,6 +251,102 @@ src/host/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc-control-system.dir/build.make CMakeFiles/cnc-control-system.dir/src/host/main.cpp.s
 .PHONY : src/host/main.cpp.s
 
+src/host/mainwindow.o: src/host/mainwindow.cpp.o
+.PHONY : src/host/mainwindow.o
+
+# target to build an object file
+src/host/mainwindow.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc-control-system.dir/build.make CMakeFiles/cnc-control-system.dir/src/host/mainwindow.cpp.o
+.PHONY : src/host/mainwindow.cpp.o
+
+src/host/mainwindow.i: src/host/mainwindow.cpp.i
+.PHONY : src/host/mainwindow.i
+
+# target to preprocess a source file
+src/host/mainwindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc-control-system.dir/build.make CMakeFiles/cnc-control-system.dir/src/host/mainwindow.cpp.i
+.PHONY : src/host/mainwindow.cpp.i
+
+src/host/mainwindow.s: src/host/mainwindow.cpp.s
+.PHONY : src/host/mainwindow.s
+
+# target to generate assembly for a file
+src/host/mainwindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc-control-system.dir/build.make CMakeFiles/cnc-control-system.dir/src/host/mainwindow.cpp.s
+.PHONY : src/host/mainwindow.cpp.s
+
+src/host/serial_bridge.o: src/host/serial_bridge.cpp.o
+.PHONY : src/host/serial_bridge.o
+
+# target to build an object file
+src/host/serial_bridge.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc-control-system.dir/build.make CMakeFiles/cnc-control-system.dir/src/host/serial_bridge.cpp.o
+.PHONY : src/host/serial_bridge.cpp.o
+
+src/host/serial_bridge.i: src/host/serial_bridge.cpp.i
+.PHONY : src/host/serial_bridge.i
+
+# target to preprocess a source file
+src/host/serial_bridge.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc-control-system.dir/build.make CMakeFiles/cnc-control-system.dir/src/host/serial_bridge.cpp.i
+.PHONY : src/host/serial_bridge.cpp.i
+
+src/host/serial_bridge.s: src/host/serial_bridge.cpp.s
+.PHONY : src/host/serial_bridge.s
+
+# target to generate assembly for a file
+src/host/serial_bridge.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc-control-system.dir/build.make CMakeFiles/cnc-control-system.dir/src/host/serial_bridge.cpp.s
+.PHONY : src/host/serial_bridge.cpp.s
+
+src/host/tool_manager.o: src/host/tool_manager.cpp.o
+.PHONY : src/host/tool_manager.o
+
+# target to build an object file
+src/host/tool_manager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc-control-system.dir/build.make CMakeFiles/cnc-control-system.dir/src/host/tool_manager.cpp.o
+.PHONY : src/host/tool_manager.cpp.o
+
+src/host/tool_manager.i: src/host/tool_manager.cpp.i
+.PHONY : src/host/tool_manager.i
+
+# target to preprocess a source file
+src/host/tool_manager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc-control-system.dir/build.make CMakeFiles/cnc-control-system.dir/src/host/tool_manager.cpp.i
+.PHONY : src/host/tool_manager.cpp.i
+
+src/host/tool_manager.s: src/host/tool_manager.cpp.s
+.PHONY : src/host/tool_manager.s
+
+# target to generate assembly for a file
+src/host/tool_manager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc-control-system.dir/build.make CMakeFiles/cnc-control-system.dir/src/host/tool_manager.cpp.s
+.PHONY : src/host/tool_manager.cpp.s
+
+src/host/visualizer.o: src/host/visualizer.cpp.o
+.PHONY : src/host/visualizer.o
+
+# target to build an object file
+src/host/visualizer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc-control-system.dir/build.make CMakeFiles/cnc-control-system.dir/src/host/visualizer.cpp.o
+.PHONY : src/host/visualizer.cpp.o
+
+src/host/visualizer.i: src/host/visualizer.cpp.i
+.PHONY : src/host/visualizer.i
+
+# target to preprocess a source file
+src/host/visualizer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc-control-system.dir/build.make CMakeFiles/cnc-control-system.dir/src/host/visualizer.cpp.i
+.PHONY : src/host/visualizer.cpp.i
+
+src/host/visualizer.s: src/host/visualizer.cpp.s
+.PHONY : src/host/visualizer.s
+
+# target to generate assembly for a file
+src/host/visualizer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnc-control-system.dir/build.make CMakeFiles/cnc-control-system.dir/src/host/visualizer.cpp.s
+.PHONY : src/host/visualizer.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -217,9 +361,27 @@ help:
 	@echo "... cnc-control-system_autogen/mocs_compilation.o"
 	@echo "... cnc-control-system_autogen/mocs_compilation.i"
 	@echo "... cnc-control-system_autogen/mocs_compilation.s"
+	@echo "... src/common/protocol.o"
+	@echo "... src/common/protocol.i"
+	@echo "... src/common/protocol.s"
+	@echo "... src/host/cad_parser.o"
+	@echo "... src/host/cad_parser.i"
+	@echo "... src/host/cad_parser.s"
 	@echo "... src/host/main.o"
 	@echo "... src/host/main.i"
 	@echo "... src/host/main.s"
+	@echo "... src/host/mainwindow.o"
+	@echo "... src/host/mainwindow.i"
+	@echo "... src/host/mainwindow.s"
+	@echo "... src/host/serial_bridge.o"
+	@echo "... src/host/serial_bridge.i"
+	@echo "... src/host/serial_bridge.s"
+	@echo "... src/host/tool_manager.o"
+	@echo "... src/host/tool_manager.i"
+	@echo "... src/host/tool_manager.s"
+	@echo "... src/host/visualizer.o"
+	@echo "... src/host/visualizer.i"
+	@echo "... src/host/visualizer.s"
 .PHONY : help
 
 

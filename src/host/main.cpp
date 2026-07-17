@@ -3,6 +3,11 @@
 */
 
 #include "main.h"
+#include "mainwindow.h"
+#include "cad_parser.h"
+#include "visualizer.h"
+#include "tool_manager.h"
+#include "serial_bridge.h"
 
 #include <QApplication>
 #include <QCommandLineParser>
@@ -11,6 +16,7 @@
 #include <QFile>
 #include <QJsonDocument>
 #include <QJsonObject>
+#include <QStringList>
 
 #include <iostream>
 
@@ -30,19 +36,22 @@ int CNCApplication::exec()
 {
     parseCommandLine(m_argc, m_argv);
     loadConfigFile();
-    initComponents();
-    setupConnections();
     if (m_config.useGui)
     {
         QApplication app(m_argc, m_argv);
-        
+        initComponents();
+        setupConnections();
+
         m_mainWindow.reset(new MainWindow(m_toolManager.data(), m_serialBridge.data(), m_cadParser.data(), m_visualizer.data()));
         m_mainWindow->show();
         return app.exec();
     }
-    else 
+    else
     {
-        std::cout << "CNC Control System [CLI mode]\n"; 
+        initComponents();
+        setupConnections();
+
+        std::cout << "CNC Control System [CLI mode]\n";
         std::cout << "Connected to: " << m_config.serialPort.toStdString() << "\n";
         while (true)
         {
@@ -80,7 +89,13 @@ void CNCApplication::parseCommandLine(int argc, char *argv[])
     QCommandLineOption stopOption(QStringList() << "s" << "stop", "stop bits", "stop", "1");
     parser.addOption(stopOption);
 
-    parser.process(QCoreApplication::arguments());
+    QStringList args;
+    args.reserve(argc);
+    for (int i = 0; i < argc; ++i)
+    {
+        args.append(QString::fromLocal8Bit(argv[i]));
+    }
+    parser.process(args);
     m_config.portName = parser.value(portOption);
     m_config.baudRate = parser.value(baudOption).toInt();
     m_config.dataBits = parser.value(dataOption).toInt();
@@ -112,14 +127,18 @@ void CNCApplication::initComponents()
     m_serialBridge.reset(new SerialBridge(m_config.portName, m_config.baudRate, m_config.dataBits, m_config.parity, m_config.stopBits));
     m_toolManager.reset(new ToolManager(m_serialBridge.data()));
     m_cadParser.reset(new CadParser(m_serialBridge.data()));
-    m_visualizer.reset(new Visualizer(m_serialBridge.data()));
+    if (m_config.useGui)
+    {
+        m_visualizer.reset(new Visualizer());
+    }
 }
 
 void CNCApplication::setupConnections()
 {
-    QObject::connect(m_serialBridge.data(), &SerialBridge::dataReceived, m_toolManager.data(), &ToolManager::dataReceived);
-    QObject::connect(m_serialBridge.data(), &SerialBridge::dataReceived, m_cadParser.data(), &CadParser::dataReceived);
-    QObject::connect(m_serialBridge.data(), &SerialBridge::dataReceived, m_visualizer.data(), &Visualizer::dataReceived);
+    Q_UNUSED(m_serialBridge);
+    Q_UNUSED(m_visualizer);
+    Q_UNUSED(m_cadParser);
+    Q_UNUSED(m_toolManager);
 }
 
 void CNCApplication::cleanup()

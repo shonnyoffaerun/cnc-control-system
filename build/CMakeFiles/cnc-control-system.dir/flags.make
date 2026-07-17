@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB
 
-CXX_INCLUDES = -I/home/dmitrykravchenko/projects/cpp/cnc-control-system/build/cnc-control-system_autogen/include -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtSerialPort -isystem /usr/include/qt6/QtWidgets
+CXX_INCLUDES = -I/home/dmitry/projects/cpp/cnc-control-system/build/cnc-control-system_autogen/include -I/home/dmitry/projects/cpp/cnc-control-system/src/host -I/home/dmitry/projects/cpp/cnc-control-system/src/common -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtSerialPort -isystem /usr/include/qt6/QtWidgets
 
-CXX_FLAGS = -std=gnu++17
+CXX_FLAGS = -std=gnu++17 -mno-direct-extern-access
 

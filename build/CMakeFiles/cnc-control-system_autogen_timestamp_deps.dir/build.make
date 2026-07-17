@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dmitrykravchenko/projects/cpp/cnc-control-system
+CMAKE_SOURCE_DIR = /home/dmitry/projects/cpp/cnc-control-system
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dmitrykravchenko/projects/cpp/cnc-control-system/build
+CMAKE_BINARY_DIR = /home/dmitry/projects/cpp/cnc-control-system/build
 
 # Utility rule file for cnc-control-system_autogen_timestamp_deps.
 
@@ -81,6 +81,6 @@ CMakeFiles/cnc-control-system_autogen_timestamp_deps.dir/clean:
 .PHONY : CMakeFiles/cnc-control-system_autogen_timestamp_deps.dir/clean
 
 CMakeFiles/cnc-control-system_autogen_timestamp_deps.dir/depend:
-	cd /home/dmitrykravchenko/projects/cpp/cnc-control-system/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dmitrykravchenko/projects/cpp/cnc-control-system /home/dmitrykravchenko/projects/cpp/cnc-control-system /home/dmitrykravchenko/projects/cpp/cnc-control-system/build /home/dmitrykravchenko/projects/cpp/cnc-control-system/build /home/dmitrykravchenko/projects/cpp/cnc-control-system/build/CMakeFiles/cnc-control-system_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)" cnc-control-system_autogen_timestamp_deps
+	cd /home/dmitry/projects/cpp/cnc-control-system/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dmitry/projects/cpp/cnc-control-system /home/dmitry/projects/cpp/cnc-control-system /home/dmitry/projects/cpp/cnc-control-system/build /home/dmitry/projects/cpp/cnc-control-system/build /home/dmitry/projects/cpp/cnc-control-system/build/CMakeFiles/cnc-control-system_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)" cnc-control-system_autogen_timestamp_deps
 .PHONY : CMakeFiles/cnc-control-system_autogen_timestamp_deps.dir/depend
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dmitrykravchenko/projects/cpp/cnc-control-system
+CMAKE_SOURCE_DIR = /home/dmitry/projects/cpp/cnc-control-system
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dmitrykravchenko/projects/cpp/cnc-control-system/build
+CMAKE_BINARY_DIR = /home/dmitry/projects/cpp/cnc-control-system/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/cnc-control-system.dir/depend.make
@@ -69,12 +69,12 @@ include CMakeFiles/cnc-control-system.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/cnc-control-system.dir/flags.make
 
-cnc-control-system_autogen/timestamp: /usr/lib64/qt6/libexec/moc
-cnc-control-system_autogen/timestamp: /usr/lib64/qt6/libexec/uic
+cnc-control-system_autogen/timestamp: /usr/lib/qt6/moc
+cnc-control-system_autogen/timestamp: /usr/lib/qt6/uic
 cnc-control-system_autogen/timestamp: CMakeFiles/cnc-control-system.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmitrykravchenko/projects/cpp/cnc-control-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target cnc-control-system"
-	/usr/bin/cmake -E cmake_autogen /home/dmitrykravchenko/projects/cpp/cnc-control-system/build/CMakeFiles/cnc-control-system_autogen.dir/AutogenInfo.json ""
-	/usr/bin/cmake -E touch /home/dmitrykravchenko/projects/cpp/cnc-control-system/build/cnc-control-system_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmitry/projects/cpp/cnc-control-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target cnc-control-system"
+	/usr/bin/cmake -E cmake_autogen /home/dmitry/projects/cpp/cnc-control-system/build/CMakeFiles/cnc-control-system_autogen.dir/AutogenInfo.json ""
+	/usr/bin/cmake -E touch /home/dmitry/projects/cpp/cnc-control-system/build/cnc-control-system_autogen/timestamp
 
 CMakeFiles/cnc-control-system.dir/codegen:
 .PHONY : CMakeFiles/cnc-control-system.dir/codegen
@@ -82,51 +82,147 @@ CMakeFiles/cnc-control-system.dir/codegen:
 CMakeFiles/cnc-control-system.dir/cnc-control-system_autogen/mocs_compilation.cpp.o: CMakeFiles/cnc-control-system.dir/flags.make
 CMakeFiles/cnc-control-system.dir/cnc-control-system_autogen/mocs_compilation.cpp.o: cnc-control-system_autogen/mocs_compilation.cpp
 CMakeFiles/cnc-control-system.dir/cnc-control-system_autogen/mocs_compilation.cpp.o: CMakeFiles/cnc-control-system.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dmitrykravchenko/projects/cpp/cnc-control-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cnc-control-system.dir/cnc-control-system_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cnc-control-system.dir/cnc-control-system_autogen/mocs_compilation.cpp.o -MF CMakeFiles/cnc-control-system.dir/cnc-control-system_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/cnc-control-system.dir/cnc-control-system_autogen/mocs_compilation.cpp.o -c /home/dmitrykravchenko/projects/cpp/cnc-control-system/build/cnc-control-system_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dmitry/projects/cpp/cnc-control-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cnc-control-system.dir/cnc-control-system_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cnc-control-system.dir/cnc-control-system_autogen/mocs_compilation.cpp.o -MF CMakeFiles/cnc-control-system.dir/cnc-control-system_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/cnc-control-system.dir/cnc-control-system_autogen/mocs_compilation.cpp.o -c /home/dmitry/projects/cpp/cnc-control-system/build/cnc-control-system_autogen/mocs_compilation.cpp
 
 CMakeFiles/cnc-control-system.dir/cnc-control-system_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cnc-control-system.dir/cnc-control-system_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dmitrykravchenko/projects/cpp/cnc-control-system/build/cnc-control-system_autogen/mocs_compilation.cpp > CMakeFiles/cnc-control-system.dir/cnc-control-system_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dmitry/projects/cpp/cnc-control-system/build/cnc-control-system_autogen/mocs_compilation.cpp > CMakeFiles/cnc-control-system.dir/cnc-control-system_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/cnc-control-system.dir/cnc-control-system_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cnc-control-system.dir/cnc-control-system_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dmitrykravchenko/projects/cpp/cnc-control-system/build/cnc-control-system_autogen/mocs_compilation.cpp -o CMakeFiles/cnc-control-system.dir/cnc-control-system_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dmitry/projects/cpp/cnc-control-system/build/cnc-control-system_autogen/mocs_compilation.cpp -o CMakeFiles/cnc-control-system.dir/cnc-control-system_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/cnc-control-system.dir/src/host/main.cpp.o: CMakeFiles/cnc-control-system.dir/flags.make
-CMakeFiles/cnc-control-system.dir/src/host/main.cpp.o: /home/dmitrykravchenko/projects/cpp/cnc-control-system/src/host/main.cpp
+CMakeFiles/cnc-control-system.dir/src/host/main.cpp.o: /home/dmitry/projects/cpp/cnc-control-system/src/host/main.cpp
 CMakeFiles/cnc-control-system.dir/src/host/main.cpp.o: CMakeFiles/cnc-control-system.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dmitrykravchenko/projects/cpp/cnc-control-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cnc-control-system.dir/src/host/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cnc-control-system.dir/src/host/main.cpp.o -MF CMakeFiles/cnc-control-system.dir/src/host/main.cpp.o.d -o CMakeFiles/cnc-control-system.dir/src/host/main.cpp.o -c /home/dmitrykravchenko/projects/cpp/cnc-control-system/src/host/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dmitry/projects/cpp/cnc-control-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cnc-control-system.dir/src/host/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cnc-control-system.dir/src/host/main.cpp.o -MF CMakeFiles/cnc-control-system.dir/src/host/main.cpp.o.d -o CMakeFiles/cnc-control-system.dir/src/host/main.cpp.o -c /home/dmitry/projects/cpp/cnc-control-system/src/host/main.cpp
 
 CMakeFiles/cnc-control-system.dir/src/host/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cnc-control-system.dir/src/host/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dmitrykravchenko/projects/cpp/cnc-control-system/src/host/main.cpp > CMakeFiles/cnc-control-system.dir/src/host/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dmitry/projects/cpp/cnc-control-system/src/host/main.cpp > CMakeFiles/cnc-control-system.dir/src/host/main.cpp.i
 
 CMakeFiles/cnc-control-system.dir/src/host/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cnc-control-system.dir/src/host/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dmitrykravchenko/projects/cpp/cnc-control-system/src/host/main.cpp -o CMakeFiles/cnc-control-system.dir/src/host/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dmitry/projects/cpp/cnc-control-system/src/host/main.cpp -o CMakeFiles/cnc-control-system.dir/src/host/main.cpp.s
+
+CMakeFiles/cnc-control-system.dir/src/host/mainwindow.cpp.o: CMakeFiles/cnc-control-system.dir/flags.make
+CMakeFiles/cnc-control-system.dir/src/host/mainwindow.cpp.o: /home/dmitry/projects/cpp/cnc-control-system/src/host/mainwindow.cpp
+CMakeFiles/cnc-control-system.dir/src/host/mainwindow.cpp.o: CMakeFiles/cnc-control-system.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dmitry/projects/cpp/cnc-control-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cnc-control-system.dir/src/host/mainwindow.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cnc-control-system.dir/src/host/mainwindow.cpp.o -MF CMakeFiles/cnc-control-system.dir/src/host/mainwindow.cpp.o.d -o CMakeFiles/cnc-control-system.dir/src/host/mainwindow.cpp.o -c /home/dmitry/projects/cpp/cnc-control-system/src/host/mainwindow.cpp
+
+CMakeFiles/cnc-control-system.dir/src/host/mainwindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cnc-control-system.dir/src/host/mainwindow.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dmitry/projects/cpp/cnc-control-system/src/host/mainwindow.cpp > CMakeFiles/cnc-control-system.dir/src/host/mainwindow.cpp.i
+
+CMakeFiles/cnc-control-system.dir/src/host/mainwindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cnc-control-system.dir/src/host/mainwindow.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dmitry/projects/cpp/cnc-control-system/src/host/mainwindow.cpp -o CMakeFiles/cnc-control-system.dir/src/host/mainwindow.cpp.s
+
+CMakeFiles/cnc-control-system.dir/src/host/serial_bridge.cpp.o: CMakeFiles/cnc-control-system.dir/flags.make
+CMakeFiles/cnc-control-system.dir/src/host/serial_bridge.cpp.o: /home/dmitry/projects/cpp/cnc-control-system/src/host/serial_bridge.cpp
+CMakeFiles/cnc-control-system.dir/src/host/serial_bridge.cpp.o: CMakeFiles/cnc-control-system.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dmitry/projects/cpp/cnc-control-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cnc-control-system.dir/src/host/serial_bridge.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cnc-control-system.dir/src/host/serial_bridge.cpp.o -MF CMakeFiles/cnc-control-system.dir/src/host/serial_bridge.cpp.o.d -o CMakeFiles/cnc-control-system.dir/src/host/serial_bridge.cpp.o -c /home/dmitry/projects/cpp/cnc-control-system/src/host/serial_bridge.cpp
+
+CMakeFiles/cnc-control-system.dir/src/host/serial_bridge.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cnc-control-system.dir/src/host/serial_bridge.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dmitry/projects/cpp/cnc-control-system/src/host/serial_bridge.cpp > CMakeFiles/cnc-control-system.dir/src/host/serial_bridge.cpp.i
+
+CMakeFiles/cnc-control-system.dir/src/host/serial_bridge.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cnc-control-system.dir/src/host/serial_bridge.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dmitry/projects/cpp/cnc-control-system/src/host/serial_bridge.cpp -o CMakeFiles/cnc-control-system.dir/src/host/serial_bridge.cpp.s
+
+CMakeFiles/cnc-control-system.dir/src/host/tool_manager.cpp.o: CMakeFiles/cnc-control-system.dir/flags.make
+CMakeFiles/cnc-control-system.dir/src/host/tool_manager.cpp.o: /home/dmitry/projects/cpp/cnc-control-system/src/host/tool_manager.cpp
+CMakeFiles/cnc-control-system.dir/src/host/tool_manager.cpp.o: CMakeFiles/cnc-control-system.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dmitry/projects/cpp/cnc-control-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/cnc-control-system.dir/src/host/tool_manager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cnc-control-system.dir/src/host/tool_manager.cpp.o -MF CMakeFiles/cnc-control-system.dir/src/host/tool_manager.cpp.o.d -o CMakeFiles/cnc-control-system.dir/src/host/tool_manager.cpp.o -c /home/dmitry/projects/cpp/cnc-control-system/src/host/tool_manager.cpp
+
+CMakeFiles/cnc-control-system.dir/src/host/tool_manager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cnc-control-system.dir/src/host/tool_manager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dmitry/projects/cpp/cnc-control-system/src/host/tool_manager.cpp > CMakeFiles/cnc-control-system.dir/src/host/tool_manager.cpp.i
+
+CMakeFiles/cnc-control-system.dir/src/host/tool_manager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cnc-control-system.dir/src/host/tool_manager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dmitry/projects/cpp/cnc-control-system/src/host/tool_manager.cpp -o CMakeFiles/cnc-control-system.dir/src/host/tool_manager.cpp.s
+
+CMakeFiles/cnc-control-system.dir/src/host/visualizer.cpp.o: CMakeFiles/cnc-control-system.dir/flags.make
+CMakeFiles/cnc-control-system.dir/src/host/visualizer.cpp.o: /home/dmitry/projects/cpp/cnc-control-system/src/host/visualizer.cpp
+CMakeFiles/cnc-control-system.dir/src/host/visualizer.cpp.o: CMakeFiles/cnc-control-system.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dmitry/projects/cpp/cnc-control-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/cnc-control-system.dir/src/host/visualizer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cnc-control-system.dir/src/host/visualizer.cpp.o -MF CMakeFiles/cnc-control-system.dir/src/host/visualizer.cpp.o.d -o CMakeFiles/cnc-control-system.dir/src/host/visualizer.cpp.o -c /home/dmitry/projects/cpp/cnc-control-system/src/host/visualizer.cpp
+
+CMakeFiles/cnc-control-system.dir/src/host/visualizer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cnc-control-system.dir/src/host/visualizer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dmitry/projects/cpp/cnc-control-system/src/host/visualizer.cpp > CMakeFiles/cnc-control-system.dir/src/host/visualizer.cpp.i
+
+CMakeFiles/cnc-control-system.dir/src/host/visualizer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cnc-control-system.dir/src/host/visualizer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dmitry/projects/cpp/cnc-control-system/src/host/visualizer.cpp -o CMakeFiles/cnc-control-system.dir/src/host/visualizer.cpp.s
+
+CMakeFiles/cnc-control-system.dir/src/host/cad_parser.cpp.o: CMakeFiles/cnc-control-system.dir/flags.make
+CMakeFiles/cnc-control-system.dir/src/host/cad_parser.cpp.o: /home/dmitry/projects/cpp/cnc-control-system/src/host/cad_parser.cpp
+CMakeFiles/cnc-control-system.dir/src/host/cad_parser.cpp.o: CMakeFiles/cnc-control-system.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dmitry/projects/cpp/cnc-control-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/cnc-control-system.dir/src/host/cad_parser.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cnc-control-system.dir/src/host/cad_parser.cpp.o -MF CMakeFiles/cnc-control-system.dir/src/host/cad_parser.cpp.o.d -o CMakeFiles/cnc-control-system.dir/src/host/cad_parser.cpp.o -c /home/dmitry/projects/cpp/cnc-control-system/src/host/cad_parser.cpp
+
+CMakeFiles/cnc-control-system.dir/src/host/cad_parser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cnc-control-system.dir/src/host/cad_parser.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dmitry/projects/cpp/cnc-control-system/src/host/cad_parser.cpp > CMakeFiles/cnc-control-system.dir/src/host/cad_parser.cpp.i
+
+CMakeFiles/cnc-control-system.dir/src/host/cad_parser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cnc-control-system.dir/src/host/cad_parser.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dmitry/projects/cpp/cnc-control-system/src/host/cad_parser.cpp -o CMakeFiles/cnc-control-system.dir/src/host/cad_parser.cpp.s
+
+CMakeFiles/cnc-control-system.dir/src/common/protocol.cpp.o: CMakeFiles/cnc-control-system.dir/flags.make
+CMakeFiles/cnc-control-system.dir/src/common/protocol.cpp.o: /home/dmitry/projects/cpp/cnc-control-system/src/common/protocol.cpp
+CMakeFiles/cnc-control-system.dir/src/common/protocol.cpp.o: CMakeFiles/cnc-control-system.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dmitry/projects/cpp/cnc-control-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/cnc-control-system.dir/src/common/protocol.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cnc-control-system.dir/src/common/protocol.cpp.o -MF CMakeFiles/cnc-control-system.dir/src/common/protocol.cpp.o.d -o CMakeFiles/cnc-control-system.dir/src/common/protocol.cpp.o -c /home/dmitry/projects/cpp/cnc-control-system/src/common/protocol.cpp
+
+CMakeFiles/cnc-control-system.dir/src/common/protocol.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cnc-control-system.dir/src/common/protocol.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dmitry/projects/cpp/cnc-control-system/src/common/protocol.cpp > CMakeFiles/cnc-control-system.dir/src/common/protocol.cpp.i
+
+CMakeFiles/cnc-control-system.dir/src/common/protocol.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cnc-control-system.dir/src/common/protocol.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dmitry/projects/cpp/cnc-control-system/src/common/protocol.cpp -o CMakeFiles/cnc-control-system.dir/src/common/protocol.cpp.s
 
 # Object files for target cnc-control-system
 cnc__control__system_OBJECTS = \
 "CMakeFiles/cnc-control-system.dir/cnc-control-system_autogen/mocs_compilation.cpp.o" \
-"CMakeFiles/cnc-control-system.dir/src/host/main.cpp.o"
+"CMakeFiles/cnc-control-system.dir/src/host/main.cpp.o" \
+"CMakeFiles/cnc-control-system.dir/src/host/mainwindow.cpp.o" \
+"CMakeFiles/cnc-control-system.dir/src/host/serial_bridge.cpp.o" \
+"CMakeFiles/cnc-control-system.dir/src/host/tool_manager.cpp.o" \
+"CMakeFiles/cnc-control-system.dir/src/host/visualizer.cpp.o" \
+"CMakeFiles/cnc-control-system.dir/src/host/cad_parser.cpp.o" \
+"CMakeFiles/cnc-control-system.dir/src/common/protocol.cpp.o"
 
 # External object files for target cnc-control-system
 cnc__control__system_EXTERNAL_OBJECTS =
 
 cnc-control-system: CMakeFiles/cnc-control-system.dir/cnc-control-system_autogen/mocs_compilation.cpp.o
 cnc-control-system: CMakeFiles/cnc-control-system.dir/src/host/main.cpp.o
+cnc-control-system: CMakeFiles/cnc-control-system.dir/src/host/mainwindow.cpp.o
+cnc-control-system: CMakeFiles/cnc-control-system.dir/src/host/serial_bridge.cpp.o
+cnc-control-system: CMakeFiles/cnc-control-system.dir/src/host/tool_manager.cpp.o
+cnc-control-system: CMakeFiles/cnc-control-system.dir/src/host/visualizer.cpp.o
+cnc-control-system: CMakeFiles/cnc-control-system.dir/src/host/cad_parser.cpp.o
+cnc-control-system: CMakeFiles/cnc-control-system.dir/src/common/protocol.cpp.o
 cnc-control-system: CMakeFiles/cnc-control-system.dir/build.make
 cnc-control-system: CMakeFiles/cnc-control-system.dir/compiler_depend.ts
-cnc-control-system: /usr/lib64/libQt6SerialPort.so.6.10.3
-cnc-control-system: /usr/lib64/libQt6Widgets.so.6.10.3
-cnc-control-system: /usr/lib64/libQt6Gui.so.6.10.3
-cnc-control-system: /usr/lib64/libGLX.so
-cnc-control-system: /usr/lib64/libOpenGL.so
-cnc-control-system: /usr/lib64/libQt6Core.so.6.10.3
+cnc-control-system: /usr/lib/libQt6SerialPort.so.6.11.1
+cnc-control-system: /usr/lib/libQt6Widgets.so.6.11.1
+cnc-control-system: /usr/lib/libQt6Gui.so.6.11.1
+cnc-control-system: /usr/lib/libGLX.so
+cnc-control-system: /usr/lib/libOpenGL.so
+cnc-control-system: /usr/lib/libQt6Core.so.6.11.1
 cnc-control-system: CMakeFiles/cnc-control-system.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/dmitrykravchenko/projects/cpp/cnc-control-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable cnc-control-system"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/dmitry/projects/cpp/cnc-control-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable cnc-control-system"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cnc-control-system.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -138,6 +234,6 @@ CMakeFiles/cnc-control-system.dir/clean:
 .PHONY : CMakeFiles/cnc-control-system.dir/clean
 
 CMakeFiles/cnc-control-system.dir/depend: cnc-control-system_autogen/timestamp
-	cd /home/dmitrykravchenko/projects/cpp/cnc-control-system/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dmitrykravchenko/projects/cpp/cnc-control-system /home/dmitrykravchenko/projects/cpp/cnc-control-system /home/dmitrykravchenko/projects/cpp/cnc-control-system/build /home/dmitrykravchenko/projects/cpp/cnc-control-system/build /home/dmitrykravchenko/projects/cpp/cnc-control-system/build/CMakeFiles/cnc-control-system.dir/DependInfo.cmake "--color=$(COLOR)" cnc-control-system
+	cd /home/dmitry/projects/cpp/cnc-control-system/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dmitry/projects/cpp/cnc-control-system /home/dmitry/projects/cpp/cnc-control-system /home/dmitry/projects/cpp/cnc-control-system/build /home/dmitry/projects/cpp/cnc-control-system/build /home/dmitry/projects/cpp/cnc-control-system/build/CMakeFiles/cnc-control-system.dir/DependInfo.cmake "--color=$(COLOR)" cnc-control-system
 .PHONY : CMakeFiles/cnc-control-system.dir/depend
 

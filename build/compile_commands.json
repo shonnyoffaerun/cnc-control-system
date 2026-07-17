@@ -1,14 +1,50 @@
 [
 {
-  "directory": "/home/dmitrykravchenko/projects/cpp/cnc-control-system/build",
-  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -I/home/dmitrykravchenko/projects/cpp/cnc-control-system/build/cnc-control-system_autogen/include -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtSerialPort -isystem /usr/include/qt6/QtWidgets -std=gnu++17 -o CMakeFiles/cnc-control-system.dir/cnc-control-system_autogen/mocs_compilation.cpp.o -c /home/dmitrykravchenko/projects/cpp/cnc-control-system/build/cnc-control-system_autogen/mocs_compilation.cpp",
-  "file": "/home/dmitrykravchenko/projects/cpp/cnc-control-system/build/cnc-control-system_autogen/mocs_compilation.cpp",
+  "directory": "/home/dmitry/projects/cpp/cnc-control-system/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -I/home/dmitry/projects/cpp/cnc-control-system/build/cnc-control-system_autogen/include -I/home/dmitry/projects/cpp/cnc-control-system/src/host -I/home/dmitry/projects/cpp/cnc-control-system/src/common -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtSerialPort -isystem /usr/include/qt6/QtWidgets -std=gnu++17 -mno-direct-extern-access -o CMakeFiles/cnc-control-system.dir/cnc-control-system_autogen/mocs_compilation.cpp.o -c /home/dmitry/projects/cpp/cnc-control-system/build/cnc-control-system_autogen/mocs_compilation.cpp",
+  "file": "/home/dmitry/projects/cpp/cnc-control-system/build/cnc-control-system_autogen/mocs_compilation.cpp",
   "output": "CMakeFiles/cnc-control-system.dir/cnc-control-system_autogen/mocs_compilation.cpp.o"
 },
 {
-  "directory": "/home/dmitrykravchenko/projects/cpp/cnc-control-system/build",
-  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -I/home/dmitrykravchenko/projects/cpp/cnc-control-system/build/cnc-control-system_autogen/include -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtSerialPort -isystem /usr/include/qt6/QtWidgets -std=gnu++17 -o CMakeFiles/cnc-control-system.dir/src/host/main.cpp.o -c /home/dmitrykravchenko/projects/cpp/cnc-control-system/src/host/main.cpp",
-  "file": "/home/dmitrykravchenko/projects/cpp/cnc-control-system/src/host/main.cpp",
+  "directory": "/home/dmitry/projects/cpp/cnc-control-system/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -I/home/dmitry/projects/cpp/cnc-control-system/build/cnc-control-system_autogen/include -I/home/dmitry/projects/cpp/cnc-control-system/src/host -I/home/dmitry/projects/cpp/cnc-control-system/src/common -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtSerialPort -isystem /usr/include/qt6/QtWidgets -std=gnu++17 -mno-direct-extern-access -o CMakeFiles/cnc-control-system.dir/src/host/main.cpp.o -c /home/dmitry/projects/cpp/cnc-control-system/src/host/main.cpp",
+  "file": "/home/dmitry/projects/cpp/cnc-control-system/src/host/main.cpp",
   "output": "CMakeFiles/cnc-control-system.dir/src/host/main.cpp.o"
+},
+{
+  "directory": "/home/dmitry/projects/cpp/cnc-control-system/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -I/home/dmitry/projects/cpp/cnc-control-system/build/cnc-control-system_autogen/include -I/home/dmitry/projects/cpp/cnc-control-system/src/host -I/home/dmitry/projects/cpp/cnc-control-system/src/common -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtSerialPort -isystem /usr/include/qt6/QtWidgets -std=gnu++17 -mno-direct-extern-access -o CMakeFiles/cnc-control-system.dir/src/host/mainwindow.cpp.o -c /home/dmitry/projects/cpp/cnc-control-system/src/host/mainwindow.cpp",
+  "file": "/home/dmitry/projects/cpp/cnc-control-system/src/host/mainwindow.cpp",
+  "output": "CMakeFiles/cnc-control-system.dir/src/host/mainwindow.cpp.o"
+},
+{
+  "directory": "/home/dmitry/projects/cpp/cnc-control-system/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -I/home/dmitry/projects/cpp/cnc-control-system/build/cnc-control-system_autogen/include -I/home/dmitry/projects/cpp/cnc-control-system/src/host -I/home/dmitry/projects/cpp/cnc-control-system/src/common -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtSerialPort -isystem /usr/include/qt6/QtWidgets -std=gnu++17 -mno-direct-extern-access -o CMakeFiles/cnc-control-system.dir/src/host/serial_bridge.cpp.o -c /home/dmitry/projects/cpp/cnc-control-system/src/host/serial_bridge.cpp",
+  "file": "/home/dmitry/projects/cpp/cnc-control-system/src/host/serial_bridge.cpp",
+  "output": "CMakeFiles/cnc-control-system.dir/src/host/serial_bridge.cpp.o"
+},
+{
+  "directory": "/home/dmitry/projects/cpp/cnc-control-system/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -I/home/dmitry/projects/cpp/cnc-control-system/build/cnc-control-system_autogen/include -I/home/dmitry/projects/cpp/cnc-control-system/src/host -I/home/dmitry/projects/cpp/cnc-control-system/src/common -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtSerialPort -isystem /usr/include/qt6/QtWidgets -std=gnu++17 -mno-direct-extern-access -o CMakeFiles/cnc-control-system.dir/src/host/tool_manager.cpp.o -c /home/dmitry/projects/cpp/cnc-control-system/src/host/tool_manager.cpp",
+  "file": "/home/dmitry/projects/cpp/cnc-control-system/src/host/tool_manager.cpp",
+  "output": "CMakeFiles/cnc-control-system.dir/src/host/tool_manager.cpp.o"
+},
+{
+  "directory": "/home/dmitry/projects/cpp/cnc-control-system/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -I/home/dmitry/projects/cpp/cnc-control-system/build/cnc-control-system_autogen/include -I/home/dmitry/projects/cpp/cnc-control-system/src/host -I/home/dmitry/projects/cpp/cnc-control-system/src/common -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtSerialPort -isystem /usr/include/qt6/QtWidgets -std=gnu++17 -mno-direct-extern-access -o CMakeFiles/cnc-control-system.dir/src/host/visualizer.cpp.o -c /home/dmitry/projects/cpp/cnc-control-system/src/host/visualizer.cpp",
+  "file": "/home/dmitry/projects/cpp/cnc-control-system/src/host/visualizer.cpp",
+  "output": "CMakeFiles/cnc-control-system.dir/src/host/visualizer.cpp.o"
+},
+{
+  "directory": "/home/dmitry/projects/cpp/cnc-control-system/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -I/home/dmitry/projects/cpp/cnc-control-system/build/cnc-control-system_autogen/include -I/home/dmitry/projects/cpp/cnc-control-system/src/host -I/home/dmitry/projects/cpp/cnc-control-system/src/common -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtSerialPort -isystem /usr/include/qt6/QtWidgets -std=gnu++17 -mno-direct-extern-access -o CMakeFiles/cnc-control-system.dir/src/host/cad_parser.cpp.o -c /home/dmitry/projects/cpp/cnc-control-system/src/host/cad_parser.cpp",
+  "file": "/home/dmitry/projects/cpp/cnc-control-system/src/host/cad_parser.cpp",
+  "output": "CMakeFiles/cnc-control-system.dir/src/host/cad_parser.cpp.o"
+},
+{
+  "directory": "/home/dmitry/projects/cpp/cnc-control-system/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -I/home/dmitry/projects/cpp/cnc-control-system/build/cnc-control-system_autogen/include -I/home/dmitry/projects/cpp/cnc-control-system/src/host -I/home/dmitry/projects/cpp/cnc-control-system/src/common -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtSerialPort -isystem /usr/include/qt6/QtWidgets -std=gnu++17 -mno-direct-extern-access -o CMakeFiles/cnc-control-system.dir/src/common/protocol.cpp.o -c /home/dmitry/projects/cpp/cnc-control-system/src/common/protocol.cpp",
+  "file": "/home/dmitry/projects/cpp/cnc-control-system/src/common/protocol.cpp",
+  "output": "CMakeFiles/cnc-control-system.dir/src/common/protocol.cpp.o"
 }
 ]

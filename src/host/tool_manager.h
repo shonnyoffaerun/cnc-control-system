@@ -133,7 +133,7 @@ public:
     void                   setActiveTool(int toolId);
     ToolProfile            getActiveTool() const;
 
-    bool                   validateCuttingParameters(double rpm, double feed) const;
+    bool                   validateCuttingParameters(double rpm, double feed);
     QString                generateToolChangeCode(int toolId) const;
     QString                generateLengthOffsetCode(double measuredLength) const;
     

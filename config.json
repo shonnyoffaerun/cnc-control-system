@@ -1,0 +1,9 @@
+{
+    "portName": "ttyACM0",
+    "baudRate": 115200,
+    "dataBits": 8,
+    "parity": 0,
+    "stopBits": 1,
+    "serialPort": "/dev/ttyACM0",
+    "useGui": true
+}

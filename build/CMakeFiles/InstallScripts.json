@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/dmitrykravchenko/projects/cpp/cnc-control-system/build/cmake_install.cmake"
+		"/home/dmitry/projects/cpp/cnc-control-system/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

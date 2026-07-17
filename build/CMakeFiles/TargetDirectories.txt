@@ -1,5 +1,5 @@
-/home/dmitrykravchenko/projects/cpp/cnc-control-system/build/CMakeFiles/cnc-control-system.dir
-/home/dmitrykravchenko/projects/cpp/cnc-control-system/build/CMakeFiles/edit_cache.dir
-/home/dmitrykravchenko/projects/cpp/cnc-control-system/build/CMakeFiles/rebuild_cache.dir
-/home/dmitrykravchenko/projects/cpp/cnc-control-system/build/CMakeFiles/cnc-control-system_autogen_timestamp_deps.dir
-/home/dmitrykravchenko/projects/cpp/cnc-control-system/build/CMakeFiles/cnc-control-system_autogen.dir
+/home/dmitry/projects/cpp/cnc-control-system/build/CMakeFiles/cnc-control-system.dir
+/home/dmitry/projects/cpp/cnc-control-system/build/CMakeFiles/edit_cache.dir
+/home/dmitry/projects/cpp/cnc-control-system/build/CMakeFiles/rebuild_cache.dir
+/home/dmitry/projects/cpp/cnc-control-system/build/CMakeFiles/cnc-control-system_autogen_timestamp_deps.dir
+/home/dmitry/projects/cpp/cnc-control-system/build/CMakeFiles/cnc-control-system_autogen.dir

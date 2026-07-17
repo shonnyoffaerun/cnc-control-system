@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dmitrykravchenko/projects/cpp/cnc-control-system
+CMAKE_SOURCE_DIR = /home/dmitry/projects/cpp/cnc-control-system
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dmitrykravchenko/projects/cpp/cnc-control-system/build
+CMAKE_BINARY_DIR = /home/dmitry/projects/cpp/cnc-control-system/build
 
 # Utility rule file for cnc-control-system_autogen.
 
@@ -68,12 +68,12 @@ include CMakeFiles/cnc-control-system_autogen.dir/progress.make
 
 CMakeFiles/cnc-control-system_autogen: cnc-control-system_autogen/timestamp
 
-cnc-control-system_autogen/timestamp: /usr/lib64/qt6/libexec/moc
-cnc-control-system_autogen/timestamp: /usr/lib64/qt6/libexec/uic
+cnc-control-system_autogen/timestamp: /usr/lib/qt6/moc
+cnc-control-system_autogen/timestamp: /usr/lib/qt6/uic
 cnc-control-system_autogen/timestamp: CMakeFiles/cnc-control-system_autogen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmitrykravchenko/projects/cpp/cnc-control-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target cnc-control-system"
-	/usr/bin/cmake -E cmake_autogen /home/dmitrykravchenko/projects/cpp/cnc-control-system/build/CMakeFiles/cnc-control-system_autogen.dir/AutogenInfo.json ""
-	/usr/bin/cmake -E touch /home/dmitrykravchenko/projects/cpp/cnc-control-system/build/cnc-control-system_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmitry/projects/cpp/cnc-control-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target cnc-control-system"
+	/usr/bin/cmake -E cmake_autogen /home/dmitry/projects/cpp/cnc-control-system/build/CMakeFiles/cnc-control-system_autogen.dir/AutogenInfo.json ""
+	/usr/bin/cmake -E touch /home/dmitry/projects/cpp/cnc-control-system/build/cnc-control-system_autogen/timestamp
 
 CMakeFiles/cnc-control-system_autogen.dir/codegen:
 .PHONY : CMakeFiles/cnc-control-system_autogen.dir/codegen
@@ -92,6 +92,6 @@ CMakeFiles/cnc-control-system_autogen.dir/clean:
 .PHONY : CMakeFiles/cnc-control-system_autogen.dir/clean
 
 CMakeFiles/cnc-control-system_autogen.dir/depend:
-	cd /home/dmitrykravchenko/projects/cpp/cnc-control-system/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dmitrykravchenko/projects/cpp/cnc-control-system /home/dmitrykravchenko/projects/cpp/cnc-control-system /home/dmitrykravchenko/projects/cpp/cnc-control-system/build /home/dmitrykravchenko/projects/cpp/cnc-control-system/build /home/dmitrykravchenko/projects/cpp/cnc-control-system/build/CMakeFiles/cnc-control-system_autogen.dir/DependInfo.cmake "--color=$(COLOR)" cnc-control-system_autogen
+	cd /home/dmitry/projects/cpp/cnc-control-system/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dmitry/projects/cpp/cnc-control-system /home/dmitry/projects/cpp/cnc-control-system /home/dmitry/projects/cpp/cnc-control-system/build /home/dmitry/projects/cpp/cnc-control-system/build /home/dmitry/projects/cpp/cnc-control-system/build/CMakeFiles/cnc-control-system_autogen.dir/DependInfo.cmake "--color=$(COLOR)" cnc-control-system_autogen
 .PHONY : CMakeFiles/cnc-control-system_autogen.dir/depend
 

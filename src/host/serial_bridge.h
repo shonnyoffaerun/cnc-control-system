@@ -180,9 +180,11 @@ private:
 
     bool                 openSerialPort(const QString &portName, int baudRate, int dataBits, int parity, int stopBits);
     void                 closeSerialPort();
+    void                 setupTimers();
+    void                 processByte(uint8_t b);
     void                 sendCommand(const QString &data);
     void                 sendRawData(const QByteArray &data);
-    void                 parseResponse(const QByteArray &data);
+    void                 parseResponse(QByteArray &data);
     void                 parsePositionResponce(const QString &data);
     void                 parseStatusResponce(const QString &data);
     void                 parseErrorResponce(const QString &data);
